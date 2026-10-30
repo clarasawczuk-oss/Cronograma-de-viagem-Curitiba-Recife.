@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Viagem: Curitiba a Recife</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Biblioteca Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✈️ Cronograma de Viagem</h1>
+            <p class="subtitle">Curitiba ➔ Recife</p>
+        </header>
+
+        <main>
+            <section class="card chart-card">
+                <h2>Distribuição dos Custos</h2>
+                <div class="chart-container">
+                    <canvas id="graficoViagem"></canvas>
+                </div>
+            </section>
+
+            <section class="card summary-card">
+                <h2>Resumo do Orçamento</h2>
+                <ul>
+                    <li><span>Passagem de avião:</span> <strong>R$ 1.300,00</strong></li>
+                    <li><span>Hospedagem:</span> <strong>R$ 1.000,00</strong></li>
+                    <li><span>Alimentação:</span> <strong>R$ 500,00</strong></li>
+                    <li><span>Transporte:</span> <strong>R$ 150,00</strong></li>
+                </ul>
+                <div class="total-box">
+                    <span>Custo Total:</span>
+                    <strong>R$ 2.950,00</strong>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Projeto de Tecnologia e Matemática — 1ª Série do Ensino Médio</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
